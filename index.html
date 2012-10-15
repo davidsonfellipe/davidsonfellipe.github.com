@@ -1,49 +1,80 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Davidsonfellipe.github.com by davidsonfellipe</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Davidson Fellipe - Frontend Developer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" media="all" href="css/final.css">
+		<link rel="stylesheet" type="text/css" media="all" href="css/desktop.css">
+		<link rel="stylesheet" type="text/css" media="all" href="css/font-awesome.css">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Davidson<br>Fellipe</h1>
-        <p class="header">github projects</p>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:700,300italic|Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body id="body">
+        <div class="container">
 
-        <ul>
-          <li><a class="buttons github" href="https://github.com/davidsonfellipe">GitHub Profile</a></li>
-          <li><a class="buttons rss" href="https://fellipe.com/blog">Blog</a></li>
-        </ul>
+            <header class="aboutme">
+                <h2 class="name">Davidson Fellipe</h2>
+                <h3 class="job">frontend engineer at globo.com | based in rio de janeiro, brasil</h3>
+            </header>
 
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+            <ul class="button-list">
+               <li class="button icon-rss">
+                    <a href="<?php echo home_url('/blog') ?>">blog</a>
+                </li>
+               <li class="button icon-bullhorn">
+                    <a href="http://fellipe.com/palestras/">talks</a>
+                </li>
+                <li class="button icon-github-sign">
+                    <a href="https://github.com/davidsonfellipe">github</a>
+                </li>
+                <li class="button icon-linkedin-sign">
+                    <a href="http://www.linkedin.com/in/fellipe">linkedin</a>
+                </li>
+                <li class="button icon-facebook-sign">
+                    <a href="https://www.facebook.com/fellipe">facebook</a>
+                </li>
+                <li class="button icon-twitter-sign">
+                    <a href="https://twitter.com/davidsonfellipe">twitter</a>
+                </li>
+            </ul>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+            <ul class="button-list">
+                <li class="button icon-asterisk">
+                    <a href="#">braziljs.org</a>
+                </li>
+                <li class="button icon-asterisk">
+                    <a href="#">frontinmaceio</a>
+                </li>
+                <li class="button icon-asterisk">
+                    <a href="#">frontinbh</a>
+                </li>
+                <li class="button icon-asterisk">
+                    <a href="#">pernambucojs</a>
+                </li>
+                <li class="button icon-asterisk">
+                    <a href="#">riojs</a>
+                </li>
+            </ul>
+        </div>
 
-<pre>
-<code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2123552-1']);
+            _gaq.push(['_trackPageview']);
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+            (function() {
 
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
+                var ga = document.createElement('script');
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                ga.setAttribute('async', 'true');
+                document.documentElement.firstChild.appendChild(ga);
+
+            })();
+        </script>
+    </body>
 </html>
